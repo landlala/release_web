@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/release_web/static/js/main.79052d01.js",
+    "index.html": "/release_web/index.html",
+    "main.79052d01.js.map": "/release_web/static/js/main.79052d01.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.79052d01.js"
+  ]
+}
