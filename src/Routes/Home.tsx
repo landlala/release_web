@@ -246,23 +246,21 @@ function Home() {
         })
     }
 
-    
-
     return (
+        
         <Wrapper>
             <Nav>
-                <button onClick={login}>abc</button>
                 <StyledLink to = "/">
-                    <motion.img onClick={moveToTop} src = "../../img/logo.png" />
+                    <motion.img onClick={moveToTop} src = "/release_web/img/logo.png" />
                 </StyledLink>
                 <StyledLink to = "/about">
-                    <motion.img onClick={moveToTop} variants={navItems} initial="normal" whileHover="hover" src = "../../img/about.png" />
+                    <motion.img onClick={moveToTop} variants={navItems} initial="normal" whileHover="hover" src = "/release_web/img/about.png" />
                 </StyledLink>
                 <StyledLink to = "/books">
-                    <motion.img onClick={moveToTop} variants={navItems} initial="normal" whileHover="hover" src = "../../img/books.png" />
+                    <motion.img onClick={moveToTop} variants={navItems} initial="normal" whileHover="hover" src = "/release_web/img/books.png" />
                 </StyledLink>
                 <StyledLink to = "/login">
-                    <motion.img onClick={moveToTop} variants={navItems} initial="normal" whileHover="hover" src = "../../img/login.png" />
+                    <motion.img onClick={moveToTop} variants={navItems} initial="normal" whileHover="hover" src = "/release_web/img/login.png" />
                 </StyledLink>
             </Nav>
             <BoxComplete />
@@ -313,10 +311,10 @@ function Home() {
             <BoxComplete />
             <BoxOne>
                 <BoxComplete>
-                    <motion.img style = {{scale: scaleOne}} src = "../../img/img1.png" />
+                    <motion.img style = {{scale: scaleOne}} src = "/release_web/img/img1.png" />
                 </BoxComplete>
                 <BoxComplete>
-                    <motion.img style = {{scale: scaleOne}} src = "../../img/img2.png" />
+                    <motion.img style = {{scale: scaleOne}} src = "/release_web/img/img2.png" />
                 </BoxComplete>
                 <BoxComplete />
                 <BoxComplete />
@@ -326,13 +324,13 @@ function Home() {
             <BoxComplete />
             <BoxTwo>
                 <BoxComplete>
-                    <motion.img style = {{scale: scaleTwo}} src = "../../img/books_img.png" />
+                    <motion.img style = {{scale: scaleTwo}} src = "/release_web/img/books_img.png" />
                 </BoxComplete>
                 <BoxComplete />
             </BoxTwo>
             <BoxComplete />
             <Footer>
-                <img src = "../../img/footer_release.png" />
+                <img src = "/release_web/img/footer_release.png" />
             </Footer>
         </Wrapper>
     );

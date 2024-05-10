@@ -83,7 +83,7 @@ const Posts = ({ posts, loading }: IPosts & { loading: boolean }) => {
                 {posts.map((post) => (
                     <Book key = {post.id}>
                         <Img>
-                            <img src = "../../img/books/harry.jpg" />
+                            <img src = "/release_web/img/books/harry.jpg" />
                         </Img>
                         <Description>
                             <h1>

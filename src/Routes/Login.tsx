@@ -78,20 +78,20 @@ function Login() {
         <Wrapper>
             <Nav>
                 <StyledLink to = "/">
-                    <motion.img onClick={moveToTop} src = "../../img/logo.png" />
+                    <motion.img onClick={moveToTop} src = "/release_web/img/logo.png" />
                 </StyledLink>
                 <StyledLink to = "/about">
-                    <motion.img onClick={moveToTop} variants={navItems} initial="normal" whileHover="hover" src = "../../img/about.png" />
+                    <motion.img onClick={moveToTop} variants={navItems} initial="normal" whileHover="hover" src = "/release_web/img/about.png" />
                 </StyledLink>
                 <StyledLink to = "/books">
-                    <motion.img onClick={moveToTop} variants={navItems} initial="normal" whileHover="hover" src = "../../img/books.png" />
+                    <motion.img onClick={moveToTop} variants={navItems} initial="normal" whileHover="hover" src = "/release_web/img/books.png" />
                 </StyledLink>
                 <StyledLink to = "/login">
-                    <motion.img onClick={moveToTop} style={{opacity: 1}} src = "../../img/login2.png" />
+                    <motion.img onClick={moveToTop} style={{opacity: 1}} src = "/release_web/img/login2.png" />
                 </StyledLink>
             </Nav>
             <Footer>
-                <img src = "../../img/footer_release.png" />
+                <img src = "/release_web/img/footer_release.png" />
             </Footer>
         </Wrapper>
     )

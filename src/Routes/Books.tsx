@@ -209,21 +209,21 @@ function Books() {
         <Wrapper>
             <Nav>
                 <StyledLink to = "/">
-                    <motion.img onClick={moveToTop} src = "../../img/logo.png" />
+                    <motion.img onClick={moveToTop} src = "/release_web/img/logo.png" />
                 </StyledLink>
                 <StyledLink to = "/about">
-                    <motion.img onClick={moveToTop} variants={navItems} initial="normal" whileHover="hover" src = "../../img/about.png" />
+                    <motion.img onClick={moveToTop} variants={navItems} initial="normal" whileHover="hover" src = "/release_web/img/about.png" />
                 </StyledLink>
                 <StyledLink to = "/books">
-                    <motion.img onClick={moveToTop} style={{opacity: 1}} src = "../../img/books2.png" />
+                    <motion.img onClick={moveToTop} style={{opacity: 1}} src = "/release_web/img/books2.png" />
                 </StyledLink>
                 <StyledLink to = "/login">
-                    <motion.img onClick={moveToTop} variants={navItems} initial="normal" whileHover="hover" src = "../../img/login.png" />
+                    <motion.img onClick={moveToTop} variants={navItems} initial="normal" whileHover="hover" src = "/release_web/img/login.png" />
                 </StyledLink>
             </Nav>
             <BoxComplete />
             <Intro>
-                <img src="../../img/books/phrase.png" />
+                <img src="/release_web/img/books/phrase.png" />
             </Intro>
             <BoxComplete />
             {checkMediaQuery()};
@@ -238,7 +238,7 @@ function Books() {
             </BoxComplete>
             <BoxComplete />
             <Footer>
-                <img src = "../../img/footer_release.png" />
+                <img src = "/release_web/img/footer_release.png" />
             </Footer>
         </Wrapper>
     )

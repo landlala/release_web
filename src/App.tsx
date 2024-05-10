@@ -1,5 +1,5 @@
 import { AnimatePresence } from "framer-motion";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./Routes/Home";
 import About from './Routes/About';
 import Books from "./Routes/Books";
@@ -7,7 +7,7 @@ import Login from "./Routes/Login";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AnimatePresence mode = "wait">
         <Routes>
           <Route path = "/" element = {<Home />} />
@@ -16,7 +16,7 @@ function App() {
           <Route path = "login" element = {<Login />} />
         </Routes>
       </AnimatePresence>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
